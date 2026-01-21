@@ -1,0 +1,167 @@
+
+ p {
+ color: red;
+ }
+ a {
+ color: green;
+ }
+
+body {
+ font-size: 14px;
+ color: navy;
+}
+
+
+body {
+    font-family: arial, helvetica, sans-serif;
+    font-size: 14px;
+    color: black;
+    background-color: #ffc; 
+    margin: 20px;
+    padding: 0;
+}
+
+
+p {
+    line-height: 21px;
+}
+
+
+h1 {
+    color: #ffc;
+    background-color: #900; 
+    font-size: 2em;
+    margin: 0;
+    margin-bottom: 7px;
+    padding: 4px;
+    font-style: italic;
+    text-align: center;
+    letter-spacing: 0.5em;
+    border-bottom-style: solid;
+    border-bottom-width: 0.5em;
+    border-bottom-color: #c00;
+}
+
+
+h2 {
+    color: white;
+    background-color: #090; /* Vert */
+    font-size: 1.5em;
+    margin: 0;
+    padding: 2px;
+    padding-left: 14px;
+}
+
+h3 {
+    color: #999;
+    font-size: 1.25em;
+}
+img {
+    border-style: dashed;
+    border-width: 2px;
+    border-color: #ccc;
+}
+
+
+a {
+    text-decoration: none;
+}
+strong {
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+
+
+li {
+    color: #900;
+    font-style: italic;
+}
+
+
+
+table {
+    background-color: #ccc;
+}
+
+#top {
+    background-color: #ccc; 
+    padding: 20px;
+}
+
+
+.intro {
+    color: red;
+    font-weight: bold;
+}
+
+a:link {
+    color: blue;
+}
+
+
+a:visited {
+    color: purple;
+}
+
+
+a:hover {
+    text-decoration: none;
+    color: blue;
+    background-color: yellow;
+}
+
+
+a:active {
+    color: red;
+}
+
+input:focus, textarea:focus {
+    background: #eee;
+}
+
+#navigation {
+    float: left;
+    width: 200px;
+}
+
+
+#navigation2 {
+    float: right;
+    width: 200px;
+}
+
+
+#content {
+    margin: 0 200px; 
+}
+
+
+#footer {
+    clear: both;
+}
+
+@media screen and (max-width: 1000px) {
+    #content {
+        width: 100%; 
+        margin: 0;   
+    }
+}
+
+
+@media screen and (max-width: 800px) {
+    #navigation {
+        float: none; 
+        width: auto;
+    }
+}
+
+caption {
+    font-weight: bold; 
+    margin-bottom: 10px;
+}
+
+th, td {
+    padding: 10px; 
+    border: 1px solid #333; 
+}
