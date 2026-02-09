@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>People database</title>
+    <link rel="stylesheet" href="src/style.css">
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Date of Birth (dd/mm/yyyy)</th>
+                <th>Age</th>
+                <th>Height (cm)</th>
+                <th>Weight (kg)</th>
+                <th>BMI</th>
+                <th>18 and older?</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody id="personTableBody">
+            </tbody>
+        
+        <tr>
+            <th colspan="8" class="tableOption">Add a new person!</th>
+        </tr>
+        <tr>
+            <td><input type="text" name="name" id="nameInput"></td>
+            <td><input type="date" name="birthDate" id="birthDateInput"></td> <td class="tableOption">-</td>
+            <td><input type="number" name="height" id="heightInput"></td>
+            <td><input type="number" name="weight" id="weightInput"></td>
+            <td class="tableOption">-</td>
+            <td class="tableOption">-</td>
+            <td class="tableOption">
+                <button type="button" onclick="addPerson(createPerson())">OK</button>
+            </td>
+        </tr>
+    </table>
+
+    <script src="dist/script.js"></script>
+</body>
+</html>
